@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partida</title>
+
+    <link rel="stylesheet" href="/css/indexStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body>
+	
+
+    <div class="container">
+        <div class="container-top">
+            <h1>Numerològic</h1>
+        </div>
+
+        <div class="d4">
+            <div class="d2">
+                    
+            </div>
+            <div style="display:flex;flex-direction:row;justify-content:space-around;align-items:center; width: 100%;">
+                <button class="important" onclick="borrarUltim()">Esborrar</button>
+                <h2 id="resultat">0</h2>
+                <button class="important" onclick="verificarResultat()">Introduïr</button>
+            </div>
+        </div>
+
+        <div class="container-mid">
+            <div class="container-numeros">
+                <div class="d1" id="num2">
+                    
+                </div>
+
+                <div class="d1" id="num1">
+                    
+                </div>
+            </div>
+
+            <div class="container-input">
+                <div class="d3">
+                    <h2 id="numero">15635</h2>
+                    <div style="display: flex; flex-direction: row;">
+                        <h3 id="resultatsTrobats">0</h3>
+                        <h3>/</h3>
+                        <h3 id="resultatsTotals">32</h3>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="container-signes">
+                <div class="d1" id="sign1">
+
+                </div>
+
+                <div class="d1" id="sign2">
+                    
+                </div>                
+            </div>
+        </div>
+
+        <div class="container-bot">
+
+        </div>
+        
+    </div>
+</body>
+</html>
